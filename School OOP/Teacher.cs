@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace School_OOP
 {
-    class Program
+    class Teacher : Person
     {
-        static void Main(string[] args)
+        private string subject;
+
+        public void Explain()
         {
+            Console.WriteLine("Explanation begins");
         }
     }
 }
